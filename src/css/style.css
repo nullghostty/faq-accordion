@@ -1,3 +1,13 @@
+.faq-accordion__answer {
+  display: none;
+}
 
+/* temporary functionality */
+.faq-accordion__item:hover .faq-accordion__question-toggle {
+  content: url("../../assets/images/icon-minus.svg");
+}
+.faq-accordion__item:hover .faq-accordion__answer {
+  display: block;
+}
 
 /*# sourceMappingURL=style.css.map */
