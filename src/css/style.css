@@ -1,13 +1,9 @@
-.faq-accordion__answer {
-  display: none;
+.faq-accordion__title {
+  font-size: clamp(2rem, 0.5rem + 3vw, 3.5rem);
 }
 
-/* temporary functionality */
-.faq-accordion__item:hover .faq-accordion__question-toggle {
-  content: url("../../assets/images/icon-minus.svg");
-}
-.faq-accordion__item:hover .faq-accordion__answer {
-  display: block;
+.faq-accordion__answer {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
