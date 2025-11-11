@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@mixin font($fw, $lh) {
+  font-weight: $fw;
+  line-height:$lh;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+}
+
+/* text-preset-1 - Work Sans Bold */
 .faq-accordion__title {
+  @include font(700, 4.125rem);
   font-size: clamp(2rem, 0.5rem + 3vw, 3.5rem);
+}
+
+/* text-preset-2 - Work Sans SemiBold */
+.faq-accordion__question-title {
+  @include font(600, 1.3125rem);
+  font-size: clamp(1rem, 0.5rem + 3vw, 1.125rem);
+}
+
+/* text-preset-3 - Work Sans Regular */
+.faq-accordion__answer {
+  @include font(400, 1.5rem);
+  font-size: clamp(0.875rem, 0.5rem + 3vw, 1rem);
 }
